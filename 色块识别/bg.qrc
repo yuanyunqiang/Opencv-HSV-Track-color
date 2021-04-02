@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="hui">
+    <file>hui.png</file>
+  </qresource>
+</RCC>

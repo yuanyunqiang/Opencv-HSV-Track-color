@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'd:\Users\Administrator\Desktop\色块识别\color.ui'
+# Form implementation generated from reading ui file 'd:\Users\Go\Desktop\color\色块识别\color.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.0
 #
@@ -14,23 +14,24 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(676, 547)
-        MainWindow.setMinimumSize(QtCore.QSize(676, 547))
-        MainWindow.setMaximumSize(QtCore.QSize(676, 547))
+        MainWindow.resize(676, 520)
+        MainWindow.setMinimumSize(QtCore.QSize(676, 520))
+        MainWindow.setMaximumSize(QtCore.QSize(676, 520))
+        MainWindow.setAnimated(True)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(10, 40, 320, 240))
+        self.label.setGeometry(QtCore.QRect(10, 50, 320, 180))
         self.label.setStyleSheet("background-color: rgb(218, 218, 218);")
         self.label.setText("")
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(345, 40, 320, 240))
+        self.label_2.setGeometry(QtCore.QRect(345, 50, 320, 180))
         self.label_2.setStyleSheet("background-color: rgb(218, 218, 218);")
         self.label_2.setText("")
         self.label_2.setObjectName("label_2")
         self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
-        self.verticalLayoutWidget.setGeometry(QtCore.QRect(121, 291, 541, 190))
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(121, 260, 541, 191))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
@@ -72,14 +73,11 @@ class Ui_MainWindow(object):
         self.horizontalSlider_6.setOrientation(QtCore.Qt.Horizontal)
         self.horizontalSlider_6.setObjectName("horizontalSlider_6")
         self.verticalLayout.addWidget(self.horizontalSlider_6)
-        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        self.lineEdit.setGeometry(QtCore.QRect(11, 494, 653, 20))
-        self.lineEdit.setObjectName("lineEdit")
         self.label_9 = QtWidgets.QLabel(self.centralwidget)
-        self.label_9.setGeometry(QtCore.QRect(615, 525, 54, 12))
+        self.label_9.setGeometry(QtCore.QRect(616, 500, 54, 12))
         self.label_9.setObjectName("label_9")
         self.horizontalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
-        self.horizontalLayoutWidget.setGeometry(QtCore.QRect(14, 289, 105, 191))
+        self.horizontalLayoutWidget.setGeometry(QtCore.QRect(14, 260, 105, 191))
         self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
@@ -136,6 +134,17 @@ class Ui_MainWindow(object):
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(11, 8, 93, 27))
         self.pushButton.setObjectName("pushButton")
+        self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
+        self.textEdit.setGeometry(QtCore.QRect(13, 460, 648, 32))
+        self.textEdit.setFrameShape(QtWidgets.QFrame.HLine)
+        self.textEdit.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.textEdit.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByMouse|QtCore.Qt.TextEditable|QtCore.Qt.TextSelectableByMouse)
+        self.textEdit.setObjectName("textEdit")
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setGeometry(QtCore.QRect(636, 232, 29, 30))
+        self.pushButton_2.setStyleSheet("border-image: url(:/hui/hui.png);")
+        self.pushButton_2.setText("")
+        self.pushButton_2.setObjectName("pushButton_2")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -158,3 +167,4 @@ class Ui_MainWindow(object):
         self.label_15.setText(_translate("MainWindow", "255"))
         self.label_12.setText(_translate("MainWindow", "255"))
         self.pushButton.setText(_translate("MainWindow", "打开摄像头"))
+import bg_rc
