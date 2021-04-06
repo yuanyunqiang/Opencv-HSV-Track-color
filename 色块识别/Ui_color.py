@@ -132,7 +132,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_4.addWidget(self.label_12)
         self.horizontalLayout.addLayout(self.verticalLayout_4)
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(11, 8, 93, 27))
+        self.pushButton.setGeometry(QtCore.QRect(110, 10, 93, 27))
         self.pushButton.setObjectName("pushButton")
         self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit.setGeometry(QtCore.QRect(13, 460, 648, 32))
@@ -145,6 +145,12 @@ class Ui_MainWindow(object):
         self.pushButton_2.setStyleSheet("border-image: url(:/hui/hui.png);")
         self.pushButton_2.setText("")
         self.pushButton_2.setObjectName("pushButton_2")
+        self.comboBox = QtWidgets.QComboBox(self.centralwidget)
+        self.comboBox.setGeometry(QtCore.QRect(13, 12, 88, 22))
+        self.comboBox.setObjectName("comboBox")
+        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_3.setGeometry(QtCore.QRect(208, 10, 93, 27))
+        self.pushButton_3.setObjectName("pushButton_3")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -167,4 +173,5 @@ class Ui_MainWindow(object):
         self.label_15.setText(_translate("MainWindow", "255"))
         self.label_12.setText(_translate("MainWindow", "255"))
         self.pushButton.setText(_translate("MainWindow", "打开摄像头"))
+        self.pushButton_3.setText(_translate("MainWindow", "关闭摄像头"))
 import bg_rc
