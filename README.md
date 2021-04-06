@@ -1,5 +1,6 @@
 # Opencv-HSV-Track-color
 ![](色块识别/Screenshot.png)
+
 This is a small color patch tracking program written using opencv and PyQT5.
 
 ## How to use:
