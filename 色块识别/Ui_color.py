@@ -17,6 +17,9 @@ class Ui_MainWindow(object):
         MainWindow.resize(676, 520)
         MainWindow.setMinimumSize(QtCore.QSize(676, 520))
         MainWindow.setMaximumSize(QtCore.QSize(676, 520))
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/hui/ico.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        MainWindow.setWindowIcon(icon)
         MainWindow.setAnimated(True)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -158,7 +161,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "HSV color"))
         self.label_9.setText(_translate("MainWindow", "By:运强"))
         self.label_6.setText(_translate("MainWindow", "HUE Min："))
         self.label_5.setText(_translate("MainWindow", "SAT Min："))

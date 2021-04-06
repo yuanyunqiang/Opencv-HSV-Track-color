@@ -23,7 +23,11 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>HSV color</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="bg.qrc">
+    <normaloff>:/hui/ico.ico</normaloff>:/hui/ico.ico</iconset>
   </property>
   <property name="animated">
    <bool>true</bool>

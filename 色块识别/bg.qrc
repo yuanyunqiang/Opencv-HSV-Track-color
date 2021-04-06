@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="hui">
+    <file>ico.ico</file>
     <file>hui.png</file>
   </qresource>
 </RCC>
